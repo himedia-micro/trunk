@@ -1,0 +1,56 @@
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 20000
+
+ribbon:
+  ReadTimeout: 20000
+  ConnectTimeout: 20000
+
+zuul:
+  ignoredServices: '*'
+  host:
+    connect-timeout-millis: 20000
+    socket-timeout-millis: 20000
+
+  routes:
+    auth-service:
+      path: /uaa/**
+      url: http://${oauth.server.ip}:11002
+      stripPrefix: false
+      sensitiveHeaders:
+
+    account-service:
+      path: /accounts/**
+      serviceId: account-service
+      stripPrefix: false
+      sensitiveHeaders:
+
+    test-micro:
+      path: /test-micro/**
+      serviceId: test-micro
+      stripPrefix: false
+      sensitiveHeaders:
+
+    test-micro-client:
+      path: /test-micro-client/**
+      serviceId: test-micro-client
+      url: http://172.20.5.78:6022
+      stripPrefix: false
+
+    mvs-service:
+      path: /mvs/**
+      serviceId: mvs-service
+      stripPrefix: false
+      sensitiveHeaders:
+
+    mvs-consumer:
+      path: /mvs-comsumer/**
+      serviceId: mvs-consumer
+      sensitiveHeaders:
+
+server:
+  port: 4000
