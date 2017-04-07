@@ -1,0 +1,3 @@
+server:
+  context-path: /test-micro
+  port: 6012
