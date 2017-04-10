@@ -42,10 +42,16 @@ zuul:
       url: http://172.20.5.78:6022
       stripPrefix: false
 
+    mvs-service:
+      path: /mvs-service/**
+      serviceId: mvs-service
+      stripPrefix: false
+      sensitiveHeaders:
+
     mvs-consumer:
       path: /mvs-consumer/**
       serviceId: mvs-consumer
-      url: http://172.20.5.35:6035
+      url: http://101.37.35.74:6035
       stripPrefix: false
 
 server:
