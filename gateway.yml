@@ -11,6 +11,7 @@ ribbon:
   ConnectTimeout: 20000
 
 zuul:
+
   ignoredServices: '*'
   host:
     connect-timeout-millis: 20000
@@ -41,16 +42,11 @@ zuul:
       url: http://172.20.5.78:6022
       stripPrefix: false
 
-    mvs-service:
-      path: /mvs/**
-      serviceId: mvs-service
-      stripPrefix: false
-      sensitiveHeaders:
-
     mvs-consumer:
-      path: /mvs-comsumer/**
+      path: /mvs-consumer/**
       serviceId: mvs-consumer
-      sensitiveHeaders:
+      url: http://172.20.5.35:6035
+      stripPrefix: false
 
 server:
   port: 4000
