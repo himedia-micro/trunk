@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:mysql://badlook2.mysql.rds.aliyuncs.com:3306/micro-mvs
+    url: jdbc:mysql://rdsvebirzvebirzo.mysql.rds.aliyuncs.com:3306/micro-mvs
     username: micromvs
     password: micromvs@123
     driver-class-name: com.mysql.jdbc.Driver
