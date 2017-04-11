@@ -51,7 +51,7 @@ zuul:
     mvs-consumer:
       path: /mvs-consumer/**
       serviceId: mvs-consumer
-      url: http://101.37.35.74:11007
+      url: http://112.124.121.197:11008
       stripPrefix: false
 
 server:

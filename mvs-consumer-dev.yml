@@ -1,6 +1,6 @@
 server:
   context-path: /mvs-consumer
-  port: 11007
+  port: 11008
 
 #spring:
 #  redis:
