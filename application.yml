@@ -23,7 +23,7 @@ security:
       user-info-uri: http://${oauth.server.ip}:11002/uaa/user
 
 #自定义配置
-eureka.server.ip: 101.37.35.74
-oauth.server.ip: 101.37.35.74
+eureka.server.ip: 114.215.184.96
+#oauth.server.ip: 101.37.35.74
 #eureka.server.ip: 172.20.6.110
 #oauth.server.ip: 172.20.6.110
