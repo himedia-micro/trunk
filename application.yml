@@ -25,5 +25,6 @@ security:
 #自定义配置
 eureka.server.ip: 114.215.184.96
 oauth.server.ip: 114.215.184.96
+
 #eureka.server.ip: 172.20.6.110
 #oauth.server.ip: 172.20.6.110
