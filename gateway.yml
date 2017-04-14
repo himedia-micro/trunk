@@ -54,5 +54,11 @@ zuul:
       url: http://112.124.96.140:11008
       stripPrefix: false
 
+    hmd-box:
+      path: /hmd-box/**
+      serviceId: hmd-box
+      url: http://112.124.96.140:11009
+      stripPrefix: false
+
 server:
   port: 4000
