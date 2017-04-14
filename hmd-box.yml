@@ -1,0 +1,8 @@
+server:
+  context-path: /hmd-box
+  port: 11009
+
+logging:
+  path:  /Users/pg/Downloads/
+  level:
+    root: INFO
