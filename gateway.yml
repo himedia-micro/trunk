@@ -30,23 +30,11 @@ zuul:
       stripPrefix: false
       sensitiveHeaders:
 
-    test-micro:
-      path: /test-micro/**
-      serviceId: test-micro
-      stripPrefix: false
-      sensitiveHeaders:
-
     test-micro-client:
       path: /test-micro-client/**
       serviceId: test-micro-client
       url: http://172.20.5.78:6022
       stripPrefix: false
-
-    mvs-service:
-      path: /mvs-service/**
-      serviceId: mvs-service
-      stripPrefix: false
-      sensitiveHeaders:
 
     mvs-consumer:
       path: /mvs-consumer/**
