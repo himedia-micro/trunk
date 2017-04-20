@@ -5,9 +5,9 @@ server:
 spring:
   redis:
     database: 0
-    host: 112.124.96.140
+    host: 10.168.95.108
     port: 6379
-    password: himedia@123
+    password: hmd_123456
     pool:
       max-active: 8
       max-wait: 10000
