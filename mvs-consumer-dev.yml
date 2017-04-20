@@ -5,7 +5,7 @@ server:
 spring:
   redis:
     database: 0
-    host: localhost
+    host: 112.124.96.140
     port: 6379
     password: himedia@123
     pool:
