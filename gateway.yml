@@ -49,4 +49,4 @@ zuul:
       stripPrefix: false
 
 server:
-  port: 4000
+  port: 80
