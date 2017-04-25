@@ -2,7 +2,7 @@ spring:
   datasource:
     url: jdbc:mysql://rdsvebirzvebirzo.mysql.rds.aliyuncs.com:3306/micro-mvs
     username: micromvs
-    password: micromvs@123
+    password: MicroMvs@123
     driver-class-name: com.mysql.jdbc.Driver
   jpa:
     show-sql: true
