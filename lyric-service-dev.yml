@@ -14,4 +14,4 @@ logging:
   level:
     root: INFO
 
-application-path: /Users/pg/Downloads/
+application-path: /usr/local/cloud/
