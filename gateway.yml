@@ -24,12 +24,6 @@ zuul:
       stripPrefix: false
       sensitiveHeaders:
 
-    account-service:
-      path: /accounts/**
-      serviceId: account-service
-      stripPrefix: false
-      sensitiveHeaders:
-
     test-micro-client:
       path: /test-micro-client/**
       serviceId: test-micro-client
